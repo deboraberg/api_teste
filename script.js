@@ -68,4 +68,7 @@ senhaInput.addEventListener('input',function(){
 });
 
 //evento de subimit (evtar envio caso haja erros)
-document.
+document.getElementById('Formulario').addEventListener('submit', function(event){
+    event.preventDefault();
+    alert('Formulário enviado com sucesso!');
+});
